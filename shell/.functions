@@ -123,3 +123,7 @@ function scheduler () {
         sleep 60
     done
 }
+
+function jsonnow () {
+   touch $(date +%Y%m%d-%H%M%S).json
+}
